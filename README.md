@@ -1,2 +1,9 @@
-# Class project สร้าง androind application เกมทายคำด้วย java ใน android studio
+# Class project สร้าง android application เกมทายคำด้วย java ใน android studio
 
+วิธีเล่น
+
+1. เลือกหมวดหมู่คำศัพท์ที่ต้องการ
+2. หน้าทายคําหน้าจะแสดงคําศัพท์เกี่ยวกับหมวดหมู่ที่เลือก มีเวลาจับเวลาในการทาย 60 วินาที
+3. ถ้าหากทายถูกให้คว่ําหน้าจอไปข้างหน้า คะแนนจะถูกนับ 1 คะแนน ถ้าต้องการข้ามคําให้หงายหน้าจอไปด้านหลัง จะเปลี่ยนเป็นคําถัดไปโดยที่ไม่นับคะแนน
+
+❤️ลองเล่นได้ที่นี่ https://drive.google.com/file/d/1eJ3NR2x2SgQPJRzKB7cNVDePtS_zu8kU/view?usp=sharing (เฉพาะ android)
