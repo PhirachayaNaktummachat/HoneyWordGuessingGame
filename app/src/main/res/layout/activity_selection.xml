@@ -1,0 +1,169 @@
+<android.widget.ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background0"
+    android:padding="5dp">
+
+    <!-- LinearLayout to hold all buttons and TextView -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/select"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- Fruits Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFood"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:backgroundTint="#FDD223"
+                android:text="@string/btnFood"
+                android:textColor="#000000"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnSweet"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:backgroundTint="#FDD223"
+                android:text="@string/btnSweet"
+                android:textColor="#000000"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnFruits"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:backgroundTint="#FDD223"
+                android:text="@string/btnFruits"
+                android:textColor="#090909"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDrinks"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:backgroundTint="#FDD223"
+                android:text="@string/btnDrinks"
+                android:textColor="#000000"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnAnimals"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:backgroundTint="#FDD223"
+                android:gravity="center"
+                android:text="@string/btnAnimals"
+                android:textColor="#000000"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnPlace"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:backgroundTint="#FDD223"
+                android:text="@string/btnPlace"
+                android:textColor="#000000"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMusic"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:backgroundTint="#FDD223"
+                android:text="@string/btnMusic"
+                android:textColor="#000000"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnFolk"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:backgroundTint="#FDD223"
+                android:text="@string/btnFolk"
+                android:textColor="#000000"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnCeleb"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:backgroundTint="#FDD223"
+                android:text="@string/btnCeleb"
+                android:textColor="#000000"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp" />
+        </LinearLayout>
+
+        <!-- Animals Button -->
+
+        <!-- Vehicles Button -->
+
+        <!-- Colors Button -->
+
+    </LinearLayout>
+</android.widget.ScrollView>

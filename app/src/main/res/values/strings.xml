@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Honeysweet100</string>
+    <string name="btnFood">Food</string>
+    <string name="btnSweet">Sweets</string>
+    <string name="btnFruits">Fruits</string>
+    <string name="btnDrinks">Drinks</string>
+    <string name="btnAnimals">Animals</string>
+    <string name="btnPlace">Place</string>
+    <string name="btnMusic">Hit Song</string>
+    <string name="btnFolk">Folk Song</string>
+    <string name="btnCeleb">Celebrity</string>
+    <string name="select">Select a Category</string>
+    <string name="backButton">Back</string>
+    <string name="restartButton">Restart</string>
+    <string name="backToCategoryButton">Category</string>
+    <string name="timerTextView">Time Left: 60s</string>
+    <string name="scoreTextView">Score: 0</string>
+
+</resources>

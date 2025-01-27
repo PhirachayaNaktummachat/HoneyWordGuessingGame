@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ฮั่นนี่หวาน100</string>
+    <string name="btnFood">อาหาร</string>
+    <string name="btnSweet">ของหวาน</string>
+    <string name="btnFruits">ผลไม้</string>
+    <string name="btnDrinks">เครื่องดื่ม</string>
+    <string name="btnAnimals">สัตว์</string>
+    <string name="btnPlace">สถานที่</string>
+    <string name="btnMusic">เพลงฮิต</string>
+    <string name="btnFolk">เพลงลูกทุ่ง</string>
+    <string name="btnCeleb">คนดัง</string>
+    <string name="select">เลือกหมวดหมู่</string>
+    <string name="backButton">ย้อนกลับ</string>
+    <string name="restartButton">เริ่มใหม่</string>
+    <string name="backToCategoryButton">หมวดหมู่</string>
+    <string name="timerTextView">เหลือเวลา: 60 วินาที</string>
+    <string name="scoreTextView">คะแนน: 0</string>
+
+</resources>
